@@ -1,6 +1,6 @@
 # DomoticzLife360
-### v2.3.1
-#### New: Added locations.txt file to name your frequent locations instead of showing address
+### v2.3.2
+#### New: Modified life360.py and plygin.py
 
 This is a Domoticz Plugin for Life 360
 
@@ -8,9 +8,8 @@ You get 4 device types: At Home Presence, Battery, Location and Driving Distance
 
 ![alt text](https://www.dropbox.com/s/8jqwuq0big73da3/Life360Devices.jpg?raw=1)
 
-There are 2 assumptions:
-**1.** This Plugin follows only all the members of the the **first circle** in your Life360 app.
-**2.** In order to follow Presence, you have to name your location as '**Home**' in your Life360 app.
+There is 1 assumption:
+**1.** In order to follow Presence, you have to name your location as '**Home**' in your Life360 app.
 
 Thanks to Harper Reed for Python implementation of Life 360 API: https://github.com/harperreed/life360-python
 
