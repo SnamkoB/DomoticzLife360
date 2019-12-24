@@ -1,6 +1,6 @@
 # DomoticzLife360
 ### v2.3.2
-#### New: Modified life360.py and plygin.py
+#### New: Modified life360.py and plugin.py
 
 This is a Domoticz Plugin for Life 360
 
