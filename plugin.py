@@ -17,6 +17,7 @@
                 <option label="False" value="Normal"  default="true" />
             </options>
         </param>
+        <param field="Mode5" label="Life360 Circle Name" width="150px" required="true" default="Home"/>
     </params>
 </plugin>
 """
@@ -83,7 +84,7 @@ class BasePlugin:
             Domoticz.Debug("API Authenticated")
         
             #Grab id
-            self.id = api.get_circle_id()
+            self.id = api.get_circle_id(Parameters["Mode5"])
             Domoticz.Debug("Circle 0 ID:"+str(self.id))
             #Let's get your circle!
             circle = api.get_circle(self.id)
